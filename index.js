@@ -8,10 +8,6 @@ var animate = false;
 var clickedCircleIndexNo = -1; // Index of the circle that was clicked
 
 function centerElements() {
-  // Container
-  // var container = document.getElementsByClassName("container");
-  // container.style.backgroundColor = "blue";
-
   // Center the header
   var canvasHeaderName = document.getElementById("headerName");
   canvasHeaderName.style.textAlign = "center";
@@ -27,22 +23,7 @@ function centerElements() {
   button.style.top = "86%";
   button.style.fontSize = "38px";
   button.style.fontFamily = "Tektur";
-  // button.style.borderColor = "darkgray";
-  // button.style.borderRadius = "0.5rem";
-  // button.style.cursor = "pointer";
-  // button.style.backgroundColor = "gray";
-  // button.style.transition = "transform 0.3s, background-color 0.3s";
-  // button.addEventListener("mouseenter", function () {
-  //   button.style.transform = "scale(1.1)";
-  //   button.style.backgroundColor = "lightgray";
-  //   buttonHover(true);
-  // });
-  // button.addEventListener("mouseleave", function () {
-  //   button.style.transform = "scale(1)";
-  //   button.style.backgroundColor = "gray";
-  //   buttonHover(false);
-  // });
-
+ 
   // Center the canvas
   var canvas = document.getElementById("myCanvas");
   var canvasWidth = canvas.clientWidth;
